@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    background-image: url(./second\ page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+ 
+}
+nav {
+    display: flex;
+}
+
+.logobox> img {
+      flex: 2;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+}
+.logobox> span{
+    color: rgb(2, 31, 11);
+    font-size: 40px;
+    font-family: "Open Sans", serif;
+    font-weight: 900;
+
+
+}
+ul {
+    display: flex;
+    flex: 8;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+li>a {
+    color: #FFFFFF;
+    font-family: "Open Sans", serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.fa-item {
+    display: flex;
+    flex: 2;   
+    margin-top: 15px;
+    color: white;
+    padding-left: 30px;
+
+
+}
+
+.fa-item {
+    display: flex;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+.box{
+    margin-top: 219px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    background: none;
+}
+.bottombox{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bottombox> h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80.31px;
+    color:#07484A;
+    box-shadow: 0px, 0px, 4px
+}
+.bottombox> p{
+    font-size: 20px;
+    line-height: 32.68px;
+    font-weight: 400;
+    font-family: "Open Sans", serif;
+    color: #07484A;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #70908B;
+    display: flex;
+    width:  230px;
+    height: 50px;
+    border-radius:10px;
+    gap: 4px;
+    
+}
+button>a{
+  
+    color: #FDFBF8;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+    font-family: "Open Sans", serif;
+   
+
+}
